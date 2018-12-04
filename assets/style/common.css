@@ -2,13 +2,30 @@ nav {
   position: fixed !important;
   width: 100vw;
   z-index: 1000;
+  background-color: #202020 !important;
+  font-weight: 700;
+}
+
+nav .active {
+  color: white !important;
 }
 
 main {
   position: relative;
-  top: 75px;
+  top: 57px;
 }
 
 main section {
-  min-height: 90vh;
+  min-height: 95vh;
+}
+
+footer {
+  position: relative;
+  top: 57px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+footer .footer-copyright {
+  background-color: #191919;
 }

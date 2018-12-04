@@ -6,10 +6,12 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="./assets/style/bootstrap/bootstrap.min.css" />
 		<link rel="stylesheet" href="./assets/style/common.css" />
-		<title>Document</title>
+		<link rel="stylesheet" href="./assets/style/index.css" />
+
+		<title>Home</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<nav class="navbar navbar-expand-md navbar-dark">
 			<div class="container">
 				<a class="navbar-brand" href="#">Viking</a>
 				<button
@@ -23,90 +25,123 @@
 				</button>
 				<div class="navbar-collapse collapse">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+						<li class="nav-item"><a class="nav-link text-warning active" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link text-warning" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link text-warning" href="#">Services</a></li>
+						<li class="nav-item"><a class="nav-link text-warning" href="#">Blog</a></li>
+						<li class="nav-item">
+							<a class="nav-link text-warning" href="./assets/pages/contact.html">Contact</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 		<main>
-			<section class="container" id="first">
-				<div class="jumbotron">
-					<h1 class="display-4">Viking Cyber Security</h1>
-					<p class="lead">
-						This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-						featured content or information.
-					</p>
-					<hr class="my-4" />
-					<p>
-						It uses utility classes for typography and spacing to space content out within the larger
-						container.
-					</p>
-					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			<section id="first">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-6 col-sm-12">
+							<div class="jumbotron">
+								<h1 class="display-4">Viking Cyber Security</h1>
+								<p class="lead">
+									This is a simple hero unit, a simple jumbotron-style component for calling extra
+									attention to featured content or information.
+								</p>
+								<hr class="my-4" />
+								<a class="btn btn-warning rounded-0 btn-lg" href="#" role="button">Learn more</a>
+							</div>
+						</div>
+						<div class="col"></div>
+					</div>
 				</div>
 			</section>
-			<section class="container" id="services">
-				<h4 class="display-4 text-center">Viking Cyber Security</h4>
-				<p class="text-center m-4 text-muted">Some text la la la</p>
-				<div class="row">
-					<div class="col-md-4 col-sm-12">
-						<div class="card">
-							<img
-								class="card-img-top rounded img-thumbnail"
-								src="./assets/img/s3.jpg"
-								alt="Card image cap"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Some service</h5>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary">Learn More</a>
+			<section id="services">
+				<div class="container">
+					<h4 class="display-4 text-center">Viking Cyber Security</h4>
+					<p class="text-center m-4 text-muted">Some text la la la</p>
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<div class="card">
+								<img class="card-img-top rounded" src="./assets/img/s3.jpg" alt="Card image cap" />
+								<div class="card-body">
+									<h5 class="card-title">Some service</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make up the bulk of the
+										card's content.
+									</p>
+									<a href="#" class="btn btn-warning rounded-0">Learn More</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-12">
-						<div class="card">
-							<img
-								class="card-img-top rounded img-thumbnail"
-								src="./assets/img/s3.jpg"
-								alt="Card image cap"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Some service</h5>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary">Learn More</a>
+						<div class="col-md-4 col-sm-12">
+							<div class="card">
+								<img class="card-img-top rounded" src="./assets/img/s3.jpg" alt="Card image cap" />
+								<div class="card-body">
+									<h5 class="card-title">Some service</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make up the bulk of the
+										card's content.
+									</p>
+									<a href="#" class="btn btn-warning rounded-0">Learn More</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-12">
-						<div class="card">
-							<img
-								class="card-img-top rounded img-thumbnail"
-								src="./assets/img/s3.jpg"
-								alt="Card image cap"
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Some service</h5>
-								<p class="card-text">
-									Some quick example text to build on the card title and make up the bulk of the
-									card's content.
-								</p>
-								<a href="#" class="btn btn-primary">Learn More</a>
+						<div class="col-md-4 col-sm-12">
+							<div class="card">
+								<img class="card-img-top rounded" src="./assets/img/s3.jpg" alt="Card image cap" />
+								<div class="card-body">
+									<h5 class="card-title">Some service</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make up the bulk of the
+										card's content.
+									</p>
+									<a href="#" class="btn btn-warning rounded-0">Learn More</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<footer></footer>
 		</main>
+
+		<footer>
+			<div class="container">
+				<div class="row text-center d-flex justify-content-center pt-5 mb-3">
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold"><a class="text-warning" href="#">Home</a></h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold"><a class="text-warning" href="#">About</a></h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold"><a class="text-warning" href="#">Services</a></h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold"><a class="text-warning" href="#">Blog</a></h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a class="text-warning" href="./assets/pages/contact.html">Contact</a>
+						</h6>
+					</div>
+				</div>
+				<hr class="bg-light" style="margin: 0 15%;" />
+				<div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+					<div class="col-md-8 col-12 mt-5">
+						<p style="line-height: 1.7rem">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+							laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+							architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+							aspernatur aut odit aut fugit, sed quia consequuntur.
+						</p>
+					</div>
+				</div>
+				<hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;" />
+			</div>
+			<div class="footer-copyright text-center py-3">
+				© 2018 Copyright: <a class="text-warning" href="https://github.com/7aske"> @7aske</a>
+			</div>
+		</footer>
 		<script src="./assets/javascript/jquery/jquery-3.3.1.slim.min.js"></script>
 		<script src="./assets/javascript/popper/popper.min.js"></script>
 		<script src="./assets/javascript/bootstrap/bootstrap.min.js"></script>

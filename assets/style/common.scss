@@ -2,11 +2,25 @@ nav {
 	position: fixed !important;
 	width: 100vw;
 	z-index: 1000;
+	background-color: #202020 !important;
+	font-weight: 700;
+	.active {
+		color: white !important;
+	}
 }
 main {
 	section {
-		min-height: 90vh;
+		min-height: 95vh;
 	}
 	position: relative;
-	top: 75px;
+	top: 57px;
+}
+footer {
+	position: relative;
+	top: 57px;
+	background-color: #222222;
+	color: #ffffff;
+	.footer-copyright {
+		background-color: #191919;
+	}
 }

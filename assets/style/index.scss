@@ -1,0 +1,63 @@
+#first {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		background-image: url("../img/header-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto 100%;
+		filter: brightness(0.3);
+	}
+	.container {
+		padding-top: 100px;
+		padding-bottom: 2em;
+		.jumbotron {
+			color: white;
+			background-color: rgba(1, 1, 1, 0.4);
+			hr {
+				background-color: rgba(255, 255, 255, 0.6);
+			}
+		}
+	}
+}
+#services {
+	.container {
+		padding-top: 100px;
+		.card {
+			margin-bottom: 10px;
+			background-color: #202020;
+			padding: 5px;
+			color: white;
+			border: 5px solid rgba(0, 0, 0, 0);
+			&:hover {
+				border-color: orange;
+			}
+		}
+	}
+}
+@media screen and (max-width: 540px) {
+	#first {
+		&::before {
+			background-position: -500px 0px;
+			background-size: auto 100%;
+		}
+		.container {
+			padding-top: 20px;
+			h1 {
+				font-size: 40px;
+			}
+		}
+	}
+	#services {
+		.container {
+			padding-top: 20px;
+		}
+	}
+}

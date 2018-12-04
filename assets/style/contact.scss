@@ -1,0 +1,17 @@
+#contact {
+	background-color: #20202055;
+	.card {
+		background-color: #202020;
+		color: white;
+		form {
+			input,
+			textarea {
+				background-color: #202020;
+				border: none;
+				border-radius: 0px;
+				border-bottom: 2px solid #fd7e14;
+				color: white;
+			}
+		}
+	}
+}
