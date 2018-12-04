@@ -4,6 +4,9 @@ nav {
 	z-index: 1000;
 }
 main {
+	section {
+		min-height: 90vh;
+	}
 	position: relative;
 	top: 75px;
 }

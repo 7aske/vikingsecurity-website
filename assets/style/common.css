@@ -8,3 +8,7 @@ main {
   position: relative;
   top: 75px;
 }
+
+main section {
+  min-height: 90vh;
+}
