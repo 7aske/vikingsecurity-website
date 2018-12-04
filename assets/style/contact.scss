@@ -1,5 +1,10 @@
 #contact {
-	background-color: #20202055;
+	//background-color: #20202055;
+	#particles-js {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+	}
 	.card {
 		background-color: #202020;
 		color: white;
