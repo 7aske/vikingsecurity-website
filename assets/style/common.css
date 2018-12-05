@@ -20,12 +20,13 @@ main {
 main #navSpacer {
   -webkit-transition: background-color 250ms;
   transition: background-color 250ms;
-  height: 58px;
+  position: relative;
+  height: 6vh;
   background-color: #191919;
 }
 
 main section {
-  min-height: 95vh;
+  min-height: 94vh;
 }
 
 footer {
@@ -58,7 +59,7 @@ footer .footer-copyright {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {

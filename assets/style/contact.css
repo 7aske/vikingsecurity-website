@@ -1,8 +1,9 @@
 main {
-  overflow: hidden;
+  min-height: 101vh;
+  margin-bottom: -4.15em;
 }
 
-main #contact #particles-js {
+main #particles-js {
   position: absolute;
   width: 100vw;
   height: 100vh;

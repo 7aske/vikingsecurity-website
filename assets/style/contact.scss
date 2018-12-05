@@ -1,16 +1,18 @@
 main {
-	overflow: hidden;
+	//overflow: hidden;
+	min-height: 101vh;
+	margin-bottom: -4.15em;
+	#particles-js {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+	}
 	#contact {
 		//background-color: #20202055;
-		#particles-js {
-			position: absolute;
-			width: 100vw;
-			height: 100vh;
-		}
+
 		.card {
 			background-color: #202020;
 			color: white;
-
 			form {
 				input:not([type="submit"]),
 				textarea {
@@ -24,3 +26,10 @@ main {
 		}
 	}
 }
+// @media screen and (max-width: 540px) {
+// 	#contact {
+// 		.container {
+// 			padding-top: 10px !important;
+// 		}
+// 	}
+// }
