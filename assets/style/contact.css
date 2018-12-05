@@ -1,16 +1,20 @@
-#contact #particles-js {
+main {
+  overflow: hidden;
+}
+
+main #contact #particles-js {
   position: absolute;
   width: 100vw;
   height: 100vh;
 }
 
-#contact .card {
+main #contact .card {
   background-color: #202020;
   color: white;
 }
 
-#contact .card form input:not([type="submit"]),
-#contact .card form textarea {
+main #contact .card form input:not([type="submit"]),
+main #contact .card form textarea {
   background-color: #202020;
   border: none;
   border-radius: 0px;
