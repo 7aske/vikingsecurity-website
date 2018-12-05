@@ -7,7 +7,7 @@ nav {
 	width: 100vw;
 	z-index: 1000;
 	//background-color: #202020;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 1);
 	font-weight: 700;
 	.active {
 		color: white !important;
@@ -21,6 +21,11 @@ main {
 		position: relative;
 		height: 6vh;
 		background-color: #191919;
+	}
+	.slider {
+		height: 30vh;
+		//background: linear-gradient(180deg, black, #444444);
+		background-color: #000000;
 	}
 	section {
 		min-height: 94vh;

@@ -4,7 +4,7 @@ nav {
   position: fixed !important;
   width: 100vw;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: black;
   font-weight: 700;
 }
 
@@ -23,6 +23,11 @@ main #navSpacer {
   position: relative;
   height: 6vh;
   background-color: #191919;
+}
+
+main .slider {
+  height: 30vh;
+  background-color: #000000;
 }
 
 main section {

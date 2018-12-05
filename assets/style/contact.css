@@ -1,6 +1,6 @@
 main {
-  min-height: 101vh;
   margin-bottom: -4.15em;
+  overflow-y: hidden;
 }
 
 main #particles-js {
