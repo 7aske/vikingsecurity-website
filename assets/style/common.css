@@ -26,8 +26,23 @@ main #navSpacer {
 }
 
 main .slider {
+  position: relative;
   height: 30vh;
   background-color: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(180deg, black, rgba(0, 0, 0, 0.6));
+}
+
+main .slider::before {
+  content: "";
+  background-image: url("../img/header-bg1.jpg");
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: 0 -700px;
+  background-size: 100%;
+  z-index: -1;
 }
 
 main section {
@@ -53,9 +68,13 @@ footer .footer-copyright {
   background-color: #ffc107;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
   main #navSpacer {
     height: 52px;
+  }
+  main .slider::before {
+    content: "";
+    background-position: center;
   }
 }
 

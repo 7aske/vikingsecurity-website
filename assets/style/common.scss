@@ -23,9 +23,22 @@ main {
 		background-color: #191919;
 	}
 	.slider {
+		position: relative;
 		height: 30vh;
-		//background: linear-gradient(180deg, black, #444444);
 		background-color: #000000;
+		&::before {
+			content: "";
+			background-image: url("../img/header-bg1.jpg");
+			position: absolute;
+			width: 100%;
+			height: 30vh;
+			background-repeat: no-repeat;
+			background-position: 0 -700px;
+			background-size: 100%;
+			z-index: -1;
+			//filter: brightness(0.2);
+		}
+		background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6));
 	}
 	section {
 		min-height: 94vh;
@@ -45,10 +58,16 @@ footer {
 ::selection {
 	background-color: #ffc107;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
 	main {
 		#navSpacer {
 			height: 52px;
+		}
+		.slider {
+			&::before {
+				content: "";
+				background-position: center;
+			}
 		}
 	}
 }
