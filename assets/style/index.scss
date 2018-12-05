@@ -1,6 +1,23 @@
 #first {
 	height: 100vh;
 	position: relative;
+	overflow: hidden;
+	video {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		//height: 100%;
+		width: 100%;
+
+		background-color: black;
+		background-image: url("../img/header-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto 100%;
+		filter: brightness(0.3);
+	}
 	&::before {
 		content: "";
 		position: absolute;
@@ -16,6 +33,7 @@
 		background-size: auto 100%;
 		filter: brightness(0.3);
 	}
+
 	.container {
 		padding-top: 100px;
 		padding-bottom: 2em;
@@ -43,11 +61,15 @@
 		}
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
 	#first {
+		video {
+			display: none;
+		}
 		&::before {
 			background-position: -500px 0px;
 			background-size: auto 100%;
+			filter: brightness(0.5);
 		}
 		.container {
 			padding-top: 60px;

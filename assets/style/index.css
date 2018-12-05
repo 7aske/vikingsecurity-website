@@ -1,6 +1,23 @@
 #first {
   height: 100vh;
   position: relative;
+  overflow: hidden;
+}
+
+#first video {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  -webkit-filter: brightness(0.3);
+          filter: brightness(0.3);
 }
 
 #first::before {
@@ -50,10 +67,15 @@
   border-color: orange;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
+  #first video {
+    display: none;
+  }
   #first::before {
     background-position: -500px 0px;
     background-size: auto 100%;
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
   }
   #first .container {
     padding-top: 60px;
