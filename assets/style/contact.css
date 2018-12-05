@@ -9,7 +9,7 @@
   color: white;
 }
 
-#contact .card form input,
+#contact .card form input:not([type="submit"]),
 #contact .card form textarea {
   background-color: #202020;
   border: none;

@@ -29,3 +29,11 @@ footer {
 footer .footer-copyright {
   background-color: #191919;
 }
+
+::-moz-selection {
+  background-color: #ffc107;
+}
+
+::selection {
+  background-color: #ffc107;
+}

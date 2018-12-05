@@ -9,7 +9,7 @@
 		background-color: #202020;
 		color: white;
 		form {
-			input,
+			input:not([type="submit"]),
 			textarea {
 				background-color: #202020;
 				border: none;
